@@ -1,0 +1,11 @@
+when we try to add pictures to our website, we try to using aws but our members from last semester told us we are using the server provide by school so we are tring to contact her about how to use that.
+var locations = [
+	{
+		id: 1,
+		building: "Darrin Communications Center",
+		point: { lat: 42.7293, long: -73.6798 },
+		address: "Darrin Communications Center, Troy, NY 12180",
+		url: "https://s3.us-east-2.amazonaws.com/rpigooglecardboard/360Video2/1.jpg",
+		outdoor: true
+	},
+  taking this as an examplt, the url is not work anymore, hopefully it can be fixed
