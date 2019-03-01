@@ -1,0 +1,17 @@
+This week I am doing things on avoid JS injection attacks.
+
+First, I learnt what is JS injection attack, "The essence of JS Injection is to inject the Javascript code, that will be run from the client-side."
+
+Second, I learnt how to test JS Injection, the first thing you should do is to check if JS Injection is possible or not by using 
+javascript:alert(‘Executed!’);
+
+So Firstly, in order to prevent this attack, every received input should be validated. Input should be validated every time, 
+and not just when the data is initially accepted. Also, it is recommended to perform an important logic in the server side.
+Many try to protect against Javascript Injection by changing the quotes to double and Javascript code should not be performed in that way.
+
+There are three ways to test the injection
+Manually
+With testing tools
+With browser plugins
+
+and we use the index.html file to test the injection attack.
