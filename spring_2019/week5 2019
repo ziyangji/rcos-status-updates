@@ -1,0 +1,42 @@
+Thanks to one of the members in the group, we get the information of the menu each day through the python file.
+
+For me, it's a whole new way to get the information from the website which is called web crawler, I seacrch on the internet about how to use
+this tool to get the information. Although our groupe member has already done, it's still worth for me to learn this way.
+
+first we need
+
+pip install pipenv
+
+and then
+
+pipenv install
+
+finally, when we install it we type in
+
+pipenv shell
+
+There is a website called Jupyter which can help me to do some example and show the code
+
+we need to import 
+ 
+from requests_html import HTMLSession 
+
+then we create a session
+
+session = HTMLSession()
+
+then
+
+url = 'https://' (type in the url we need)
+
+we can get the website back here
+
+r = session.get(url)
+
+we can see what we get here
+
+print(r.html.text)
+
+
+For the following week I will focus on what information is I really need because there are lots of information here, so we need to
+to classify them.
